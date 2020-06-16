@@ -2,9 +2,8 @@ from utils import *
 
 def main():
   a, b = getData()
-  p, w = minMatchBruteGreedy(a, b)
+  p = minMatchBruteGreedy(a, b)
   print ('Pares:', p)
-  print ('Weight:', w)
 
 def minMatchBruteGreedy(a, b):
   n_blocks = getBlocks(a)
